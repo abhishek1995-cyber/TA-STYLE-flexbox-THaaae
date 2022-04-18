@@ -1,0 +1,91 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta>
+        <title>flexbox asgn2</title>
+        <link rel="stylesheet" href="./media/stylesheet/style.css">
+        <script src="https://kit.fontawesome.com/e03b185f1b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container header-flexbox">
+                <img class="logo" src="./media/assets/Screenshot 2022-04-18 at 3.02.28 PM.png" alt="">
+                <div class="icons">
+                    <img src="./media/assets/icons/bell.svg" alt="bell">
+                    <span>Sarah Jone</span>
+                    <img src="./media/assets/icons/user.svg" alt="user">
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="main">
+                    <aside class="aside">
+                        <div class="col-1">
+                            <div>
+                                <img src="./media/assets/icons/dashboard.svg" alt="dashboard">
+                                <span>Dashboard</span>
+                            </div>
+                            <div class="article">
+                                <img src="./media/assets/icons/article.svg" alt="article">
+                                <span>Articles</span>
+                            </div>
+                            <div>
+                                <img src="./media/assets/icons/analytics.svg" alt="Analytics">
+                                <span>Analytics</span>
+                            </div>
+                            <div>
+                                <img src="./media/assets/icons/inbox.svg" alt="Inbox">
+                                <span>Inbox</span>
+                            </div>
+                            <div>
+                                <img src="./media/assets/icons/setting.svg" alt="Settings">
+                                <span>Settings</span>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <img src="./media/assets/icons/log-out.svg" alt="logout">
+                            <span>Logout</span>
+                        </div>
+                    </aside>
+                        <section class="section">
+                            <img src="./media/assets/01.png" alt="punch today">
+                            <div class="child-container">
+                                <h1>Why we are doing Alt Campus?</h1>
+                                <p>AltCampus is an alternative to college that you wish existed. Currently, we are offering an in-house,
+                                    6-month long program to train people in quality software development, where they don't have to
+                                    pay anything until they are hired.
+                                </p>
+                                <p>We live in the world of digital skills. These skills are alwavs evolving and so is their demand.
+                                    Students/Professionals who are not responsive to the changes in industry demands, in terms of
+                                    skills, will have a hard time surviving, well at least flourishing.</p>
+                                <button class="btn">READ MORE</button>
+                            </div>
+                        </section>
+                </div>
+            </div>
+        </main>
+        <footer class="footer" >
+            <div class="container">
+                <div class="footer-flexbox">
+                    <div>
+                        <small>&copy;</small>
+                        <span>AltCampus</span>
+                    </div>
+                    <nav>
+                        <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
